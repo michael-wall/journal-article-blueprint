@@ -6,8 +6,9 @@
 - Enable the Search Headless API BETA Feature Flag
   - Instance Settings > Feature Flags > Beta > Search Headless API (LPS-179669)
 - Setup the Web Content Article Custom fields - see journal-article-publications README.
-- Import the 'WCM Expando Field By PostLoginReference' using Control Panel > Applications > Search Experiences > Blueprints screen.
-- Update the Limit Search to These Sites > Group IDs and Save.
+- Import the 'WCM Expando Field By PostLoginReference' using Control Panel > Applications > Search Experiences > Blueprints screen and the provided WCM Expando Field By PostLoginReference.json
+  - If importing into an environment that uses 'en-GB' instead of 'en-GB' then replace references to 'en-US' with 'en-GB' in the json file BEFORE importing.
+  - Update the Limit Search to These Sites > Group IDs and Save.
 - Add some new Content Articles to the Site from above (either directly in Production or via a Publication that you then Publish).
   - Populate the PostLogin / PostLoginReference custom fields with test data.
  
