@@ -68,3 +68,4 @@
 
 ## Notes ##
 - This is a ‘proof of concept’ that is being provided ‘as is’ without any support coverage or warranty.
+- I have included WCM Structure Field By PostLoginReference.json for reference but the Blueprint field name is Structure specific so Expando recommended over Structure fields here.
